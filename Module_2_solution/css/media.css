@@ -1,43 +1,49 @@
 @media (min-width: 992px) {
-    #chiken_menu { 
-        float: left;
-width: 27%;
-    }
-    #beef_menu{
-        float: left;
-        width: 27%;
-    }
-    #sushi_menu{
-        float: left;
-        width: 27%;
-    }
+  #chiken_menu {
+    float: left;
+    width: 29.33%;
+    margin: 3%;
+  }
+  #beef_menu {
+    float: left;
+    width: 29.33%;
+    margin: 3% 0% ; 
+  }
+  #sushi_menu {
+    float: left;
+    width: 29.33%;
+    margin: 3%;
+  }
 }
-
 @media (max-width: 991px) and (min-width: 768px) {
-    #chiken_menu { 
-       
-width: 40%;
-    }
-    #beef_menu{
-       
-        width: 40%;
-    }
-    #sushi_menu{
-        
-        width: 80%;
-    }
+  #chiken_menu {
+    width: 45.5%;
+    float: left;
+    margin: 3%;
+  }
+  #beef_menu {
+    width: 45.5%;
+    float: left;
+    margin-top: 3%;
+
+  }
+  #sushi_menu {
+    width: 94%;
+    margin: 3%;
+clear: left;
+  }
 }
-@media (max-width: 767px)  {
-    #chiken_menu { 
-        
-width: 90%;
-    }
-    #beef_menu{
-       
-        width: 90%;
-    }
-    #sushi_menu{
-        
-        width: 90%;
-    }
-    }
+@media (max-width: 767px) {
+  #chiken_menu {
+    width: 94%;
+    margin: 3%;
+  }
+  #beef_menu {
+    width: 94%;
+    margin: 3%;
+  }
+  #sushi_menu {
+    width: 94%;
+    margin: 3%;
+  }
+}
