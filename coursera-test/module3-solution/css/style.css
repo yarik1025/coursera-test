@@ -34,4 +34,8 @@ button[aria-expanded="true"] span {
 }
 .navbar-toggler {
   margin-right: 5px;
+  border: 0;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
 }
