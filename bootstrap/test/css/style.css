@@ -12,7 +12,7 @@ header {
 }
 header,
 footer {
-  background: url(/img/pattern.png),
+  background: url(/test/img/pattern.png),
     linear-gradient(to right, #05b1b1 0%, #52339a 100%);
   background-size: contain;
 }
@@ -70,7 +70,8 @@ footer {
 /* О курсе */
 .about,
 .shedule,
-.author {
+.author,
+.buy {
   background-color: #eee;
 }
 .about i {
@@ -119,6 +120,19 @@ footer {
 }
 .img_itd {
   max-width: 260px;
+}
+/* Отзывы */
+.review img {
+  width: 140px;
+  height: 140px;
+  border: 3px solid var(--color1);
+  border-radius: 50%;
+}
+.line_review {
+  width: 100px;
+  height: 3px;
+  background-color: var(--color2);
+  margin: 15px auto 30px;
 }
 /* Цвет */
 .color1 {
