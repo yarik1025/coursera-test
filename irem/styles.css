@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+* {
+  font-family: "Montserrat";
+  margin: 0;
+}
+header {
+  width: 100%;
+  height: 65px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0% 5%;
+}
+.header_wrapper a {
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+}
+.header_wrapper a:hover {
+  color: black;
+}
+ader_wrapper a:visited {
+  color: black;
+}
+.nav_container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.nav_container a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: orange;
+}
+.nav_container a:hover {
+  color: rgb(0, 0, 0);
+}
+.nav_container a:visited {
+  color: orange;
+}
+.icons_container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.icons_container img {
+  height: auto;
+  width: 35px;
+}
+.number_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.number_container p {
+  font-size: 1.5em;
+  font-style: bold;
+}
+.number_container button {
+  background-color: orange;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.number_container button:hover {
+  background-color: rgb(165, 108, 2);
+}
+
+li {
+  list-style: none;
+}
+
+.rem_container {
+  position: relative;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.rem_content_container {
+  flex-basis: content;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+}
+.rem_content_container h1 {
+  font-size: 4em;
+  text-align: center;
+  margin: 70px 0 20px 0;
+}
+.rem_content_container p {
+  font-size: 1em;
+  text-align: center;
+}
+.number {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px;
+}
+.rem_content_container span {
+  color: orange;
+}
+.rem_content_container input {
+  display: flex;
+  width: 30%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 1rem;
+  border: 0;
+  border-radius: 5px;
+  background: orange;
+}
+.rem_content_container button {
+  display: flex;
+  width: 20%;
+  height: auto;
+  min-width: 100px;
+  font-family: inherit;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: orange;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.rem_content_container button:hover {
+  background: rgb(165, 108, 2);
+}
+.rem_content_container button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+}
+.rem_content_container button:active {
+  background: greenyellow;
+  color: black;
+}
+.rem_image_container {
+  background-image: url(/img/iphone.jpeg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 30px;
+  display: flex;
+  flex-basis: 50%;
+}
+
+.carousel_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.carousel_container h2 {
+  font-size: 2em;
+}
+.slider_container {
+  align-items: center;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 5));
+  }
+}
+
+.slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 150px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+
+  &::before,
+  &::after {
+    content: "";
+    height: 150px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+  }
+
+  &::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+
+  &::before {
+    left: 0;
+    top: 0;
+  }
+
+  .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 10);
+  }
+
+  .slide {
+    height: 150px;
+    width: 250px;
+  }
+  .slide img {
+    object-fit: contain;
+  }
+}
+
+.about_container {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  margin: 30px 30px 0px 30px;
+}
+.about {
+  background-color: orange;
+  display: grid;
+  grid-template: 1fr / 20% 1fr;
+  margin: 15px;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 20px;
+}
+.about img {
+  width: 75px;
+  height: 75px;
+}
+.about h3 {
+  font-size: 1.5em;
+  color: #fff;
+}
+.about p {
+  font-size: 1em;
+  color: white;
+}
+.about_text {
+  display: grid;
+  padding: 10px;
+}

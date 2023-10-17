@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap");
+* {
+  font-family: Comic Neue;
+}
+h2,
+h3,
+h1 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 1.5em;
+}
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.nav-item {
+  background-color: white;
+  border: black solid;
+}
+.chiken_link {
+  border: black solid;
+}
+.beef_link {
+  border-left: black solid;
+  border-right: black solid;
+}
+.sushi_link {
+  border: black solid;
+}
+
+button[aria-expanded="true"] span {
+  filter: brightness(15);
+}
+.navbar-toggler {
+  margin-right: 5px;
+}
