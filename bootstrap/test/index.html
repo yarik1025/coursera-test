@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontello.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Видеокурс по верстке</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-center text-white">
+              Видеокурс по верстке для начинающих HTML&CSS
+            </h1>
+            <div
+              class="itd_play"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              <div class="itd_triangle"></div>
+            </div>
+            <a href="#footer" class="btn btn_itd btn-lg text-uppercase"
+              >Заказать</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center text-uppercase color1 mb-5">О курсе</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="itd_circle"><i class="icon-list-numbered"></i></div>
+            <h5 class="text-center">Структурированный материал</h5>
+            <div class="line"></div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="itd_circle"><i class="icon-rouble"></i></div>
+            <h5 class="text-center">Символическая цена</h5>
+            <div class="line"></div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="itd_circle"><i class="icon-chart-line"></i></div>
+            <h5 class="text-center">Актуальный и пожизненный доступ</h5>
+            <div class="line"></div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="itd_circle"><i class="icon-code"></i></div>
+            <h5 class="text-center">Практические уроки и задания</h5>
+            <div class="line"></div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="itd_circle"><i class="icon-file-video"></i></div>
+            <h5 class="text-center">34 видео в курсе(5 часов)</h5>
+            <div class="line"></div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="itd_circle"><i class="icon-phone"></i></div>
+            <h5 class="text-center">Просмотр со смартфона</h5>
+            <div class="line"></div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="itd_circle"><i class="icon-help"></i></div>
+            <h5 class="text-center">Дополнительные полезные материалы</h5>
+            <div class="line"></div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="itd_circle"><i class="icon-thumbs-up"></i></div>
+            <h5 class="text-center">Отсутствует реклама</h5>
+            <div class="line"></div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="itd_circle"><i class="icon-group"></i></div>
+            <h5 class="text-center">Курс доступен в Телеграм, ВК и на UDEMY</h5>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="forwhom">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center text-uppercase color2 mb-5">
+              Курс для тех, кто
+            </h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-md-6 col-sm-12">
+            <h5 class="text-center">
+              Хочет научиться создавать сайты своими руками
+            </h5>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <h5 class="text-center">
+              Учится современным инструментам разработки
+            </h5>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <h5 class="text-center">
+              Еще не знает язык HTML и CSS, но хочет выучить
+            </h5>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <h5 class="text-center">
+              Хочет стать крутым мастером и зарабатывать деньги
+            </h5>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <a href="#footer" class="btn btn-lg text-uppercase btn_itd"
+                >Заказать</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="shedule">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center text-uppercase color1 mb-3">
+              Программа курса
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <h4 class="text-center fw-bold mb-3 mt-3">Модуль 1<br />HTML</h4>
+
+            <div class="accordion accordion-flush" id="accordion1">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    Введение
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordion1"
+                >
+                  <div class="accordion-body fst-italic">
+                    Краткий обзор того, что мы будем изучать в данном видео
+                    курсе
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    Установка браузера и редактора кода
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion1"
+                >
+                  <div class="accordion-body fst-italic">
+                    В этом уроке мы установим браузер Google Chrome и редактор
+                    кода VS Code.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Обзор функций редактора
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion1"
+                >
+                  <div class="accordion-body fst-italic">
+                    Рассмотрим функции редактора VS Code и узнаем как с ним
+                    работать.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFour"
+                  >
+                    Первые HTML теги
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion1"
+                >
+                  <div class="accordion-body fst-italic">
+                    Выучим свои первые HTML теги, с помощью которых и создаются
+                    любые сайты.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFive"
+                  >
+                    Как задавать путь к фаилам
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFive"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion1"
+                >
+                  <div class="accordion-body fst-italic">
+                    Научимся правильно указывать путь к файлам изображений и
+                    другим страницам сайта.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSix"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSix"
+                  >
+                    Создание списка
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSix"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion1"
+                >
+                  <div class="accordion-body fst-italic">
+                    Научимся создавать списки на своем сайте.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSeven"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSeven"
+                  >
+                    Создание таблиц
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSeven"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion1"
+                >
+                  <div class="accordion-body fst-italic">
+                    В этом уроке мы рассмотри, как создавать таблицы на языке
+                    HTML.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseEight"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseEight"
+                  >
+                    Работа с текстом
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseEight"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion1"
+                >
+                  <div class="accordion-body fst-italic">
+                    В этом видео уроке мы узнаем, как работать с текстом.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseNine"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseNine"
+                  >
+                    Создание формы
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseNine"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion1"
+                >
+                  <div class="accordion-body fst-italic">
+                    Научимся создавать формы для ввода текста, флажки и кнопки.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTen"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTen"
+                  >
+                    Универсальные атрибуты
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTen"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion1"
+                >
+                  <div class="accordion-body fst-italic">
+                    Рассмотрим универсальные атрибуты, которые можно добавлять
+                    любому HTML тегу.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseEleven"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseEleven"
+                  >
+                    Цвета RGB и спецсимволы
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseEleven"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion1"
+                >
+                  <div class="accordion-body fst-italic">
+                    Научимся работать с RGB цветом и добавлять специальные
+                    символы на свой сайт.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <h4 class="text-center fw-bold mb-3 mt-3">Модуль 2<br />CSS</h4>
+
+            <div class="accordion accordion-flush" id="accordion2">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne2"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne2"
+                  >
+                    CSS селекторы
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne2"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordion2"
+                >
+                  <div class="accordion-body fst-italic">
+                    Рассмотрим основные CSS селекторы, узнаем что это такое и
+                    зачем они нужны.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo2"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo2"
+                  >
+                    Установка браузера и редактора кода
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo2"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion2"
+                >
+                  <div class="accordion-body fst-italic">
+                    В этом уроке мы установим браузер Google Chrome и редактор
+                    кода VS Code.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree2"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree2"
+                  >
+                    Обзор функций редактора
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree2"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion2"
+                >
+                  <div class="accordion-body fst-italic">
+                    Рассмотрим функции редактора VS Code и узнаем как с ним
+                    работать.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour2"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFour2"
+                  >
+                    Первые HTML теги
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFour2"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion2"
+                >
+                  <div class="accordion-body fst-italic">
+                    Выучим свои первые HTML теги, с помощью которых и создаются
+                    любые сайты.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive2"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFive2"
+                  >
+                    Как задавать путь к фаилам
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFive2"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion2"
+                >
+                  <div class="accordion-body fst-italic">
+                    Научимся правильно указывать путь к файлам изображений и
+                    другим страницам сайта.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSix2"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSix2"
+                  >
+                    Создание списка
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSix2"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion2"
+                >
+                  <div class="accordion-body fst-italic">
+                    Научимся создавать списки на своем сайте.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSeven2"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSeven2"
+                  >
+                    Создание таблиц
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSeven2"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion2"
+                >
+                  <div class="accordion-body fst-italic">
+                    В этом уроке мы рассмотри, как создавать таблицы на языке
+                    HTML.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseEight2"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseEight2"
+                  >
+                    Работа с текстом
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseEight2"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion2"
+                >
+                  <div class="accordion-body fst-italic">
+                    В этом видео уроке мы узнаем, как работать с текстом.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseNine2"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseNine2"
+                  >
+                    Создание формы
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseNine2"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion2"
+                >
+                  <div class="accordion-body fst-italic">
+                    Научимся создавать формы для ввода текста, флажки и кнопки.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTen2"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTen2"
+                  >
+                    Универсальные атрибуты
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTen2"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion2"
+                >
+                  <div class="accordion-body fst-italic">
+                    Рассмотрим универсальные атрибуты, которые можно добавлять
+                    любому HTML тегу.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <h4 class="text-center fw-bold mb-3 mt-3">
+              Модуль 3<br />Практика
+            </h4>
+
+            <div class="accordion accordion-flush" id="accordion3">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne3"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne3"
+                  >
+                    Введение
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne3"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordion3"
+                >
+                  <div class="accordion-body fst-italic">
+                    Краткий обзор того, что мы будем изучать в данном видео
+                    курсе
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo3"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo3"
+                  >
+                    Установка браузера и редактора кода
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo3"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion3"
+                >
+                  <div class="accordion-body fst-italic">
+                    В этом уроке мы установим браузер Google Chrome и редактор
+                    кода VS Code.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree3"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Обзор функций редактора
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion3"
+                >
+                  <div class="accordion-body fst-italic">
+                    Рассмотрим функции редактора VS Code и узнаем как с ним
+                    работать.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour3"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFour3"
+                  >
+                    Первые HTML теги
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFour3"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion3"
+                >
+                  <div class="accordion-body fst-italic">
+                    Выучим свои первые HTML теги, с помощью которых и создаются
+                    любые сайты.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive3"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFive3"
+                  >
+                    Как задавать путь к фаилам
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFive3"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion3"
+                >
+                  <div class="accordion-body fst-italic">
+                    Научимся правильно указывать путь к файлам изображений и
+                    другим страницам сайта.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSix3"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSix3"
+                  >
+                    Создание списка
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSix3"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion3"
+                >
+                  <div class="accordion-body fst-italic">
+                    Научимся создавать списки на своем сайте.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSeven3"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSeven3"
+                  >
+                    Создание таблиц
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSeven3"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion3"
+                >
+                  <div class="accordion-body fst-italic">
+                    В этом уроке мы рассмотри, как создавать таблицы на языке
+                    HTML.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseEight3"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseEight3"
+                  >
+                    Работа с текстом
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseEight3"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion3"
+                >
+                  <div class="accordion-body fst-italic">
+                    В этом видео уроке мы узнаем, как работать с текстом.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseNine3"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseNine3"
+                  >
+                    Создание формы
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseNine3"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion3"
+                >
+                  <div class="accordion-body fst-italic">
+                    Научимся создавать формы для ввода текста, флажки и кнопки.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTen3"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTen3"
+                  >
+                    Универсальные атрибуты
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTen3"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion3"
+                >
+                  <div class="accordion-body fst-italic">
+                    Рассмотрим универсальные атрибуты, которые можно добавлять
+                    любому HTML тегу.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseEleven3"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseEleven3"
+                  >
+                    Цвета RGB и спецсимволы
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseEleven3"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordion3"
+                >
+                  <div class="accordion-body fst-italic">
+                    Научимся работать с RGB цветом и добавлять специальные
+                    символы на свой сайт.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="learning">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center text-uppercase color2 mb-5">
+              Процесс обучения
+            </h2>
+          </div>
+        </div>
+        <div class="row align-items-center mb-5"></div>
+      </div>
+    </section>
+
+    <footer id="footer">1</footer>
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Modal title
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="embed-container">
+              <iframe
+                src="https://www.youtube.com/embed/QILiHiTD3uc"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

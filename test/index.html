@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <div>
+        <p>Имя:</p>
+        <input type="text" id="name" placeholder="Введите Ваше имя" />
+      </div>
+      <div>
+        <p>Фамилия:</p>
+        <input type="text" id="surname" placeholder="Введите Ваше Фамилию" />
+      </div>
+      <button onclick="allwords()">Отправить</button>
+      <p id="result"></p>
+    </div>
+    <script>
+      function allwords() {
+        var name = document.getElementById("name").value;
+        var surname = document.getElementById("surname").value;
+        var result = document.getElementById("result");
+        if (name && surname) {
+          result.innerHTML = `Здравствуйте, ${name} ${surname}!`;
+        } else {
+          result.innerHTML = `Введите Имя и Фамилию!`;
+        }
+      }
+    </script>
+  </body>
+</html>
